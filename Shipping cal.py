@@ -62,3 +62,4 @@ def main (wei,group):
 print(main(weight,x))
 
 
+input("Please enter to Exit")
