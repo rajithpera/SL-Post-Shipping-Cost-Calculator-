@@ -37,8 +37,6 @@ def country(name):
         name = ('NOT FOUND')
     return name
 
-
-# def weightcat(weight,):
 c_name = str(input("enter the name: "))
 weight = float(input("Please enter the weight: "))
 x = (country(c_name))
@@ -54,8 +52,8 @@ def main (wei,group):
     elif 501 <= wei <= 1000:
         y = int(3)
 
-    p_group = group+'p'
-    var = globals()[p_group]
+    p_group = group+'p' #This makes p_group as a string 
+    var = globals()[p_group] # p_group convert to variable(https://www.pythonpool.com/python-string-to-variable-name/)
         
     return (var[y])
 
